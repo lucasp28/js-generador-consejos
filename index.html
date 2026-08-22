@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Frases y Consejos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Generador de Sabiduría</h1>
+        
+        <!-- Tarjeta donde aparecerá la frase -->
+        <div class="card">
+            <p id="frase">Haz clic en el botón para recibir un consejo...</p>
+        </div>
+
+        <button id="btn-nueva">Nueva Frase</button>
+        <button id="btn-traducir">Traducir al Español</button>
+
+        <!-- Historial de frases guardadas -->
+        <div class="history-section">
+            <h3>Mis Favoritas Recientes</h3>
+            <ul id="lista-historial">
+                <!-- Aca se printean las frases guardadas -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
