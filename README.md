@@ -3,7 +3,7 @@
 Una aplicación web sencilla desarrollada con JavaScript vainilla que consume la API [Advice Slip](https://api.adviceslip.com/) para mostrar frases de sabiduría en inglés y permite traducirlas al español utilizando la API de MyMemory. Además, guarda un historial local de las últimas frases usando `localStorage`.
 
 ## 📸 Vista previa
-![Captura de pantalla de la app de consejos](./img/captura.png)
+![Captura de pantalla de la app de consejos](./assets/captura.png)
 
 ## 🚀 Tecnologías utilizadas
 * HTML5 / CSS3
