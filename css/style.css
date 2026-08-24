@@ -30,7 +30,6 @@ body {
     justify-content: center;
 }
 
-/* Estilo general por defecto para pantallas grandes */
 button {
     background-color: #38bdf8;
     color: #0f172a;
@@ -41,25 +40,24 @@ button {
     border-radius: 6px;
     cursor: pointer;
     transition: background 0.2s;
-    margin-top: 10px; /* Espacio entre botones si se apilan */
+    margin-top: 10px; 
 }
 
-/* CONTENEDOR DE BOTONES (si tienes un div que los envuelve) */
 .button-container {
     display: flex;
-    gap: 10px; /* Espacio entre ellos si están lado a lado */
+    gap: 10px; 
 }
 
-/* MEDIA QUERY PARA MÓVILES (Pantallas menores a 600px de ancho) */
+
 @media (max-width: 600px) {
     .container {
-        padding: 1rem; /* Reduce el margen general de la caja principal */
-        max-width: 90%;  /* Evita que toque los bordes de la pantalla del celular */
+        padding: 1rem; 
+        max-width: 90%;  
     }
 
     button {
-        width: 100%;     /* El botón se estira para ocupar todo el ancho disponible */
-        padding: 1rem;   /* Un botón más grande es más fácil de presionar con el dedo (touch-friendly) */
+        width: 100%;     
+        padding: 1rem;
     }
 }
 
